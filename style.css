@@ -1,7 +1,7 @@
 /* تعريف الخط Req3ah */
 @font-face {
     font-family: "Req3ah";
-    src: url("../fonts/Req3ah.otf") format("opentype");
+    src: url("Req3ah.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -30,3 +30,4 @@ body {
     font-size: 36px;
     color: rgb(0, 0, 0);              /* لون نص أسود */
 }
+
