@@ -1,0 +1,32 @@
+/* تعريف الخط Req3ah */
+@font-face {
+    font-family: "Req3ah";
+    src: url("../fonts/Req3ah.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* إعدادات عامة للجسم */
+body {
+    background-color: rgb(255, 255, 255); /* خلفية بيضاء */
+    margin: 0;
+    padding: 0;
+    font-family: "Req3ah", Arial, sans-serif;
+}
+
+/* شعار الموقع */
+.logo {
+    width: 100%;       /* يأخذ كامل عرض الصفحة */
+    height: auto;      /* يحافظ على نسبة الصورة */
+    display: block;    /* للتأكد أنه يظهر كسطر كامل */
+}
+
+/* الفقرة تحت الشعار */
+.main-text {
+    text-align: center;        /* RTL Alignment */
+    direction: rtl;           /* نص من اليمين لليسار */
+    font-family: "Req3ah", Arial, sans-serif;
+    margin: 20px;             /* مسافة حول الفقرة */
+    font-size: 36px;
+    color: rgb(0, 0, 0);              /* لون نص أسود */
+}
